@@ -40,14 +40,16 @@ app.get('/convert', (req,res) => {
 })
 
 app.get('/news', (req,res) => {
-    const options = {
+  const options = {
         method: 'GET',
-        url: 'https://crypto-news16.p.rapidapi.com/news/top/5',
+        url: 'https://cryptocurrency-news2.p.rapidapi.com/v1/coindesk',
         // https://h-crypto-news.p.rapidapi.com/cryptonews
+        //https://crypto-news16.p.rapidapi.com/news/top/5
         headers: {
           'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY,
-          'X-RapidAPI-Host': 'crypto-news16.p.rapidapi.com'
+          'X-RapidAPI-Host': 'cryptocurrency-news2.p.rapidapi.com'
         //   h-crypto-news.p.rapidapi.com
+        //crypto-news16.p.rapidapi.com
         }
        
       }
