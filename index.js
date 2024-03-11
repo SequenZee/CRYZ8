@@ -40,9 +40,9 @@ app.get('/convert', (req,res) => {
 })
 
 app.get('/news', (req,res) => {
-  const options = {
+ const options = {
         method: 'GET',
-        url: '//https://crypto-news16.p.rapidapi.com/news/top/5',
+        url: 'https://crypto-news16.p.rapidapi.com/news/top/5',
         // https://h-crypto-news.p.rapidapi.com/cryptonews
         //https://crypto-news16.p.rapidapi.com/news/top/5
         headers: {
