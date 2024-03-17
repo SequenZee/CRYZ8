@@ -66,12 +66,14 @@ npm run start:frontend
 ```bash
 npm run start:backend
 ```
-## Hosting
-- Netlify
-  🔗  [CRYZ8-Visit site](https://cozy-zuccutto-7d0382.netlify.app/)
 
-  NOTE:
-   **SERVICE STABILITY**
+## Hosting
+
+- Netlify
+
+  🔗  [CRYZ8 - Visit site](https://cozy-zuccutto-7d0382.netlify.app/)
+
+  #### NOTE: SERVICE STABILITY
       - Free APIs may not have the same level of service stability or uptime guarantees as paid APIs. This could result in occasional downtime or service interruptions, causing intermittent failures when accessing the API.
       - To ensure that the project works as intended when accessed via a hosted site, First run the code locally, and then visit the above hosted link.
 
